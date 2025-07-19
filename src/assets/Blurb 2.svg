@@ -1,0 +1,28 @@
+<svg width="700" height="744" viewBox="0 0 700 744" fill="none" xmlns="http://www.w3.org/2000/svg">
+<foreignObject x="0.951904" y="-37" width="928.048" height="780.221"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(2px);clip-path:url(#bgblur_0_14_120_clip_path);height:100%;width:100%"></div></foreignObject><g filter="url(#filter0_fg_14_120)" data-figma-bg-blur-radius="4">
+<path d="M779 258.5C779 374.464 670.591 552.988 436 465.5C285.709 465.5 364.5 650 152.5 575.5C152.5 459.536 114 192 420.993 113C571.284 113 779 142.536 779 258.5Z" fill="url(#paint0_radial_14_120)"/>
+<path d="M779 258.5C779 374.464 670.591 552.988 436 465.5C285.709 465.5 364.5 650 152.5 575.5C152.5 459.536 114 192 420.993 113C571.284 113 779 142.536 779 258.5Z" fill="url(#paint1_radial_14_120)"/>
+</g>
+<defs>
+<filter id="filter0_fg_14_120" x="0.951904" y="-37" width="928.048" height="780.221" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="75" result="effect1_foregroundBlur_14_120"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.3333333432674408 0.3333333432674408" numOctaves="3" seed="5413" />
+<feDisplacementMap in="effect1_foregroundBlur_14_120" scale="100" xChannelSelector="R" yChannelSelector="G" result="displacedImage" width="100%" height="100%" />
+<feMerge result="effect2_texture_14_120">
+<feMergeNode in="displacedImage"/>
+</feMerge>
+</filter>
+<clipPath id="bgblur_0_14_120_clip_path" transform="translate(-0.951904 37)"><path d="M779 258.5C779 374.464 670.591 552.988 436 465.5C285.709 465.5 364.5 650 152.5 575.5C152.5 459.536 114 192 420.993 113C571.284 113 779 142.536 779 258.5Z"/>
+<path d="M779 258.5C779 374.464 670.591 552.988 436 465.5C285.709 465.5 364.5 650 152.5 575.5C152.5 459.536 114 192 420.993 113C571.284 113 779 142.536 779 258.5Z"/>
+</clipPath><radialGradient id="paint0_radial_14_120" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(428.5 334.5) rotate(90) scale(221.5 271.5)">
+<stop offset="0.331731" stop-color="#A9E19A"/>
+<stop offset="0.370192" stop-color="#F9FFDA"/>
+</radialGradient>
+<radialGradient id="paint1_radial_14_120" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(428.5 334.5) rotate(90) scale(221.5 271.5)">
+<stop offset="0.331731" stop-color="#A9E19A"/>
+<stop offset="0.370192" stop-color="#F9FFDA"/>
+</radialGradient>
+</defs>
+</svg>

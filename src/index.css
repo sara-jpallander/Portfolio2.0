@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&family=Outfit:wght@100..900&display=swap');
+
+:root{
+  --background: #F7F3F2;
+  --sky-blue: #C5D4F8;
+  --red-primary: #CC0025;
+  --red-secondary: #B80022;
+  --text: #5D0000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--background);
+}

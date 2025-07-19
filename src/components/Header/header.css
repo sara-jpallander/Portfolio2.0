@@ -1,0 +1,7 @@
+@import url("../../index.css");
+
+header {
+    background-color: var(--sky-blue);
+    display: flex;
+    justify-content: space-between;
+}
