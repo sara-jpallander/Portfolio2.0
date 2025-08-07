@@ -4,4 +4,105 @@ header {
     background-color: var(--sky-blue);
     display: flex;
     justify-content: space-between;
+    padding: 48px 216px;
 }
+
+/* HEADER LEFT */
+
+.header-left {
+    align-self: flex-end;
+}
+
+.socials {
+    display: flex;
+    gap: 16px
+}
+
+.socials img {
+    width: 52px;
+    height: 52px;
+}
+
+.socials a {
+    cursor: pointer;
+    transition: 0.1s linear;
+    margin-bottom: 21px;
+}
+
+.socials a:hover {
+    transform: scale(1.1) /* rotate(5deg) */;
+    margin-top: -5px;
+    /* BOOKMARK: are we really 100% happy with this animation? */
+}
+
+.name-intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-intro p {
+    font-size: 31px;
+    margin: 0;
+}
+
+.name-intro p span {
+    margin: 0 14px;
+}
+
+.name-intro h1 {
+    font-size: 110px;
+    margin: -10px 0 0 0;
+}
+
+.name-intro p, .name-intro h1, nav a {
+    color: var(--red-secondary);
+}
+
+/* HEADER LEFT END */
+/* //////////////////////////////////////// */
+/* HEADER RIGHT */
+
+.header-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.logo {
+  animation: logo-spin infinite 20s linear;
+  display: block;
+  width: 250px;
+}
+
+.logo-container {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 62px;
+}
+
+.star {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-46%, -51%);
+  width: 150px;
+}
+
+nav {
+    display: flex;
+    gap: 48px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 21px;
+    transition: 0.1s linear;
+    margin-bottom: -15px;
+}
+
+nav a:hover {
+    font-weight: bold;
+    margin-left: -3px;
+}
+
+/* HEADER RIGHT END */

@@ -1,0 +1,44 @@
+@import url("../../index.css");
+
+.about-me-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blurb1 {
+    width: 600px;
+    margin-left: 102px;
+}
+
+.about-me-text {
+    margin: 0 216px 0 36px;
+    position: relative;
+    width: 50%;
+}
+
+.about-me-text h2 {
+    text-align: end;
+}
+
+.about-me-text p {
+    text-align: justify;
+}
+
+.about-me-header {
+    display: flex;
+    align-items: center;
+}
+
+.lang-img {
+    width: 68px;
+    opacity: 0.5;
+    position: absolute;
+    transform: translateY(60%);
+    transition: 0.2s;
+}
+
+.lang-img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
