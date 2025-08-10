@@ -31,7 +31,7 @@ export default function Header() {
             </div>
             <nav>
                 <a href="#about-me">ABOUT ME</a>
-                <a href="my-work">MY WORK</a>
+                <a href="#my-work">MY WORK</a>
                 <a href="#contact">CONTACT</a>
             </nav>
         </div>

@@ -1,0 +1,77 @@
+.blurb2 {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+/* .my-work-title, .cards-container {
+    z-index: 1;
+} */
+
+.my-work-title {
+    display: flex;
+    align-items: center;
+    margin: 68px 216px 0 216px;
+    z-index: 1;
+}
+
+.my-work-title h2 {
+    min-width: fit-content;
+}
+
+.cards-container {
+    display: flex;
+    margin: 8px 216px;
+    /* gap: 32px; */
+    justify-content: space-between;
+}
+
+/* CARD */
+
+.card {
+    width: 328px;
+    height: 482px;
+    background-color: white;
+    border-radius: 21px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s;
+}
+
+.card:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transform: scale(1.02);
+    opacity: 100%;
+}
+
+.card-img {
+    width: 328px;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 21px 21px 0 0;
+}
+
+.card-info {
+    padding: 0 21px;
+}
+
+.title-link {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -18px;
+    text-decoration: none;
+}
+
+.card-github {
+    position: absolute;
+    right: 5%;
+    bottom: 2%;
+}
+
+.card-github img {
+    width: 48px;
+}
+
+/* CARD END */

@@ -1,5 +1,6 @@
 import Header from "./components/Header/Header";
 import AboutMe from './components/About Me/AboutMe';
+import MyWork from "./components/My Work/MyWork";
 
 export default function App() {
 
@@ -8,6 +9,7 @@ export default function App() {
     <Header/>
     <main>
       <AboutMe/>
+      <MyWork/>
     </main>
     </>
   )

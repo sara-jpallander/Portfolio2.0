@@ -1,7 +1,7 @@
 import blurb1 from "../../assets/Blurb star.svg"
 import engtoswe from "../../assets/Eng2swe.png"
 import swetoeng from "../../assets/swe2eng.png"
-import { AnimatePresence, motion } from "motion/react"
+import { motion } from "motion/react"
 import { useState } from "react"
 import "./aboutMe.css"
 
@@ -28,8 +28,7 @@ export default function AboutMe() {
                     duration: 0.5,
                     delay: 0.2,
                     ease: [0, 0.71, 0.2, 1.01],
-                }}
-                exit={{ opacity: 0, scale: 0 }}>
+                }}>
                     I'm an up and coming web developer that is 
                     fascinated with good design and frontend development. 
                     My journey into tech is shaped by my background as 
@@ -46,17 +45,16 @@ export default function AboutMe() {
                 
                 null :
 
-                                <motion.p
+                <motion.p
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0 }}
                 transition={{
                     duration: 0.5,
                     delay: 0.2,
                     ease: [0, 0.71, 0.2, 1.01],
                 }}>
-                    Blivande webbutvecklare som är fascinerad av att skapa bra design och få bygga det med kod. Mitt karriärbyte till tech har färgats av min bakgrund som optiker och mitt personliga intresse av det kreativa. Det har hjälpt mig få en djupare förståelse för tillgänglighet och användarvänlig design.
-                    <br /><br /> Jag har ett öga för detalj och tillhandahåller en instinktiv förståelse för hur man uppnår en både estetisk och balanserad layout. Jag strävar efter att skapa en intutiv digital upplevelse, där målet är att det ska kännas engagerande för alla.
+                    Blivande webbutvecklare som motiveras av att skapa bra design och få bygga det med kod. Mitt karriärbyte till IT har färgats av min bakgrund som optiker och mitt personliga intresse av det kreativa. Det har hjälpt mig få en djupare förståelse för tillgänglighet och användarvänlig design.
+                    <br /> <br /> Jag har ett öga för detalj och besitter en instinktiv förståelse för hur man uppnår en både estetisk och balanserad layout. Jag strävar efter att skapa en intutiv digital upplevelse, där målet är att det ska kännas engagerande för alla.
                 </motion.p>
                 
                 }
