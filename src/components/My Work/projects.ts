@@ -1,6 +1,8 @@
 import taskly from "../../assets/taskly.png"
 import nextract from "../../assets/nextract.webp"
 import oldportfolio from "../../assets/oldportfolio.png"
+import placeholder from "../../assets/placeholder-169.png"
+
 
 type Project = {
     img: string;
@@ -32,7 +34,14 @@ const projects: Project[] = [
         deployLink: "https://almostsara.netlify.app/",
         description: "[OLD] Portfolio created as a school project. Built in vanilla Javascript, HTML and CSS with the help of the Github API. Adjusts dark or light-mode according to device settings.",
         githubLink: "https://github.com/sara-jpallander/Portfolio"
-    }
+    }, 
+
+/*     {
+        img: placeholder,
+        title: "Test",
+        description: "Understanding the common laptop screen resolutions and their corresponding pixel counts empowers users to choose the best option that aligns with their specific requirements and budget constraints.",
+        githubLink: "test"
+    }, */
 ]
 
 export default projects;

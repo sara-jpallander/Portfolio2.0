@@ -1,7 +1,7 @@
 import GithubIcon from "../../assets/Github-star.svg" 
 import open from "../../assets/open-in-new-svgrepo-com.svg"
 import "./myWork.css";
-import { motion, useScroll } from "motion/react"
+import { motion, /* useScroll */ } from "motion/react"
 
 type CardProps = {
     img: string;
@@ -12,12 +12,16 @@ type CardProps = {
 }
 
 const Card: React.FC<CardProps> = ({ img, title, deployLink, description, githubLink }) => {
-    const { scrollYProgress } = useScroll()
+    /* const { scrollYProgress } = useScroll() */
 
     return (
         <motion.div className="card"
-            id="scroll-indicator"
-            style={{ opacity: scrollYProgress }}>
+/*             id="scroll-indicator"
+            style={{ opacity: scrollYProgress }} */
+            initial={{ opacity: 0.2, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.3 }}
+            >
             <img src={img} alt="preview" className="card-img"/>
             <section className="card-info">
                 {deployLink ? 
