@@ -33,6 +33,7 @@ export default function Header() {
                 <nav>
                     <a href="#about-me">ABOUT ME</a>
                     <a href="#my-work">MY WORK</a>
+                    <a href="#skills">SKILLS</a>
                     <a href="#contact">CONTACT</a>
                 </nav>
             </div>

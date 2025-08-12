@@ -5,7 +5,7 @@ import skills from "./skills"
 
 export default function Education() {
     return(
-        <div className="education-container">
+        <div className="education-container" id="skills">
             <section className="education-title">
                 <img src={chasacademy} alt="Chas Academy" />
                 <hr/>

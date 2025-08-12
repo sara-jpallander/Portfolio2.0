@@ -24,8 +24,9 @@ const projects: Project[] = [
     {
         img: nextract,
         title: "Nextract",
+        deployLink: "https://chasacademy.se/job/grupp-5-nextract",
         description: "A tool to simplifiy extracting data from API:s in an easy to use interface. Built in a big team of students ranging from DevOps to UX/UI designers and fullstack developers.",
-        githubLink: "https://chasacademy.se/job/grupp-5-nextract"
+        githubLink: "https://github.com/sara-jpallander/Nextract"
     },
 
     {
