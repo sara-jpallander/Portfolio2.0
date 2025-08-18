@@ -28,12 +28,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
-
 header {
   background-color: var(--sky-blue);
   display: flex;
@@ -83,6 +77,11 @@ hr {
   margin: 0 18px;
 }
 
-.header-content, .about-me-container, .my-work-content {
-  max-width: 1600px;
+@media (min-width: 1750px) {
+  .header-content, .about-me-container, .my-work-content, .education-container, .contact-content {
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    
+    margin: auto 10%;
+  }
 }

@@ -25,10 +25,10 @@
 
 .cards-container {
     display: flex;
-    margin: 8px 216px 48px 216px;
+    margin: 8px 216px 136px 216px;
     flex-wrap: wrap;
-    gap: 32px;
-    justify-content: space-between;
+    gap: 36px 0;
+    justify-content: space-evenly;
 }
 
 
@@ -70,6 +70,15 @@
     text-decoration: none;
 }
 
+.title-link img {
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+.title-link:hover img {
+    opacity: 1;
+}
+
 .card-github {
     position: absolute;
     right: 5%;
@@ -78,6 +87,11 @@
 
 .card-github img {
     width: 48px;
+    transition: 0.2s;
+}
+
+.card-github img:hover {
+    transform: scale(1.1);
 }
 
 /* CARD END */

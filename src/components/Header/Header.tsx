@@ -4,11 +4,17 @@ import Slack from "../../assets/Slack-star.svg"
 /* import Stamp from "../../assets/Stamp.svg" */
 import Text from "../../assets/curve text.svg"
 import Star from "../../assets/Star 1.svg"
+import menu from "../../assets/menu.svg"
+import { useState } from "react";
 import "./header.css"
 
 export default function Header() {
+    
+    const [isClicked, setIsClicked] = useState(false);
 
   return (
+
+
     <header>
         <div className="header-content">
             <div className="header-left">
@@ -30,7 +36,10 @@ export default function Header() {
                     <img src={Text} alt="Stamp Logo" className="logo"/>
                     <img src={Star} alt="Stamp logo" className="star"/>
                 </div>
-                <nav>
+                
+                <img onClick={ () => setIsClicked(!isClicked)} src={menu} alt="hamburger menu" width={42} className="menu-icon"/>
+
+                <nav className={isClicked ? "nav mobile-nav clicked" : "nav mobile-nav" }>
                     <a href="#about-me">ABOUT ME</a>
                     <a href="#my-work">MY WORK</a>
                     <a href="#skills">SKILLS</a>

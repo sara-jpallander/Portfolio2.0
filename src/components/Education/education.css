@@ -1,5 +1,5 @@
 .education-container {
-    margin: 136px 216px 0 216px;
+    padding: 48px 216px 0 216px;
 }
 
 .education-title {
@@ -26,7 +26,7 @@
 /* TECH STACK */
 
 .tech-stack-container {
-    margin: 56px 0;
+    padding: 56px 0;
     padding-bottom: 68px;
 }
 

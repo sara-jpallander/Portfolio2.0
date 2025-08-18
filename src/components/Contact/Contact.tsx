@@ -37,7 +37,7 @@ export default function Contact() {
                 
                 </div>
 
-                <p className="footer-text">Sara J. Pallander <span>•</span> 2025 <span>|</span> Designed and built with determination</p>
+                <p className="footer-text">Sara J. Pallander <span>•</span> 2025 <span>|</span> Designed and built with love.</p>
             </div>
         </footer>
     )
