@@ -34,7 +34,7 @@ export default function Header() {
                 {/* <img src={Stamp} alt="Stamp Logo" className="logo"/> */}
                 <div className="logo-container">
                     <img src={Text} alt="Stamp Logo" className="logo"/>
-                    <img src={Star} alt="Stamp logo" className="star"/>
+                    <img src={Star} alt="Stamp logo" className="logo-star"/>
                 </div>
                 
                 <img onClick={ () => setIsClicked(!isClicked)} src={menu} alt="hamburger menu" width={42} className="menu-icon"/>

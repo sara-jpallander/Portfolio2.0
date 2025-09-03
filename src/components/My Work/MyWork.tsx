@@ -12,7 +12,7 @@ export default function MyWork() {
                 <section className="my-work-title" id="my-work">
                     <h2>My Work</h2>
                     <hr/>
-                    <img src={star} alt="star" />
+                    <img src={star} alt="star" className="star"/>
                 </section>
                 <div className="cards-container">
                     {projects.map(project => <Card 

@@ -56,7 +56,6 @@ export default function AboutMe() {
                     Blivande webbutvecklare som motiveras av att skapa bra design och få bygga det med kod. Mitt karriärbyte till IT har färgats av min bakgrund som optiker och mitt personliga intresse av det kreativa. Det har hjälpt mig få en djupare förståelse för tillgänglighet och användarvänlig design.
                     <br /> <br /> Jag har ett öga för detalj och besitter en instinktiv förståelse för hur man uppnår en både estetisk och balanserad layout. Jag strävar efter att skapa en intutiv digital upplevelse, där målet är att det ska kännas engagerande för alla.
                 </motion.p>
-                
                 }
 
             </section>

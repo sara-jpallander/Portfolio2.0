@@ -53,10 +53,14 @@
     font-weight: bold;
 }
 
+.indicators {
+    display: flex;
+    gap: 18px;
+}
+
 .area-indicator {
     display: flex;
     align-items: center;
-    margin-right: 28px;
 }
 
 .area-indicator hr {
@@ -116,4 +120,101 @@
 
 .skill.fullstack, .skill.frontend, .skill.backend {
     transition: 0.1s;
+}
+
+@media (max-width: 1170px) {
+    .tech-stack {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .tech-stack h2, .indicators {
+        align-self: flex-start;
+    }
+
+    .tech-stack h2 {
+        margin-bottom: 0;
+    }
+
+    .tech-stack .star {
+        display: none;
+    }
+}
+
+@media (max-width: 980px) {
+    .education-title img {
+        width: 30%;
+    }
+
+    .education-info p {
+        margin: 0;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 880px) {
+    .education-container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding: 0;
+    }
+
+    .education-title hr {
+        display: none;
+    }
+
+    .education-title {
+        gap: 28px;
+        justify-content: space-between;
+        padding: 0 20%;
+
+    }
+
+    .education-info p {
+        /* margin-top: -30px;
+        line-height: 55px; */
+    }
+
+    .education-info {
+        margin-top: -5%;
+        padding-right: 20%;
+    }
+
+    .tech-stack-container {
+        justify-content: center;
+        padding: 56px 20%;
+    }
+
+    .area-indicator p {
+        font-size: 16px;
+    }
+
+    .skill {
+        font-size: 14px;
+        margin: 0 16px 16px 0;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .indicators {
+        display: flex;
+        gap: 18px;
+    }
+
+    .area-indicator {
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 630px) {
+    .education-title img {
+        width: 25%;
+    }
+
+    .education-info {
+        margin-top: -3%;
+    }
 }

@@ -65,6 +65,8 @@ h2, h3 {
 
 h2 {
   font-size: 46px;
+  white-space: nowrap;
+
 }
 
 h3 {
@@ -83,5 +85,21 @@ hr {
     padding-right: 10%; */
     
     margin: auto 10%;
+  }
+}
+
+@media (max-width: 1350px) {
+  h2 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 970px) {
+  h2 {
+    font-size: 32px;
+  }
+
+  .star {
+    transform: scale(0.8);
   }
 }

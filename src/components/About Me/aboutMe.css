@@ -18,6 +18,7 @@
     max-width: 600px;
     position: relative;
     width: 50%;
+    min-width: 300px;
 }
 
 .about-me-text h2 {
@@ -44,4 +45,37 @@
 .lang-img:hover {
     opacity: 1;
     cursor: pointer;
+}
+
+@media (max-width: 1350px) {
+    .about-me-text p {
+        font-size: 16px;
+    }
+
+    .lang-img {
+        width: 48px;
+        margin-top: 6px;
+    }
+
+    .blurb1 {
+        width: 495px;
+    }
+}
+
+@media (max-width: 1145px) {
+    .about-me-container {
+        flex-direction: column;
+    }
+
+    .blurb1 {
+        margin: 0;
+        order: 2;
+        width: 60%;
+        min-width: 300px;
+    }
+
+    .about-me-text {
+        width: 60%;
+        margin: 0;
+    }
 }

@@ -79,7 +79,7 @@
   margin-bottom: 52px;
 }
 
-.star {
+.logo-star {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -117,6 +117,7 @@
         display: flex;
         cursor: pointer;
         margin-bottom: -18px;
+        margin-right: 12px;
         position: relative;
     }
 
@@ -137,7 +138,8 @@
         background-color: rgba(251, 242, 242, 0.7);
         backdrop-filter: blur(8px);
         overflow: hidden;
-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;    }
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;    
+    }
 
     .mobile-nav.clicked a {
         width: 102%;
@@ -152,10 +154,81 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px
         border-top: 2px solid var(--red-primary);
     }
 
-    .mobile-nav.clicked a:hover {
-        /* font-weight: normal; */
-        /* margin-left: 0; */
+    /*   .mobile-nav.clicked a:hover {
+        font-weight: normal;
+        margin-left: 0;
         
-    }
+    } */
 }
 /* HEADER RIGHT END */
+
+@media (max-width: 1350px) {
+    
+  .name-intro p {
+    font-size: 21px;
+  }
+
+  .name-intro h1 {
+    font-size: 78px;
+  }
+
+  .socials {
+    gap: 12px;
+    margin-bottom: -8px;
+  }
+
+  .socials img {
+    width: 48px;
+  }
+
+  .menu-icon {
+    width: 36px;
+    margin-bottom: -12px;
+  }
+
+  .logo-container {
+    transform: scale(0.8);
+    margin-right: -12px;
+    margin-bottom: 18px;
+  }
+
+  .mobile-nav.clicked {
+    transform: scale(0.9);
+    top: 350px;
+  }
+} 
+
+@media (max-width: 940px) {
+    .header-content {
+        padding: 0 20% 48px 20%;
+    }
+
+    .name-intro p {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+
+    .name-intro h1 {
+        font-size: 68px;
+    }
+
+    .socials img {
+        width: 42px;
+    }
+
+    .menu-icon {
+        width: 32px;
+        margin-bottom: -12px;
+    }
+
+      .logo-container {
+        transform: scale(0.6);
+        margin-right: -24px;
+        margin-bottom: 2px;
+    }
+
+    .mobile-nav.clicked {
+        transform: scale(0.8);
+        top: 280px;
+    }
+}

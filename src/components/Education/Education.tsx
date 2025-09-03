@@ -20,19 +20,22 @@ export default function Education() {
             <div className="tech-stack-container">
                 <section className="tech-stack">
                     <h2>Tech Stack</h2>
-                    <img src={star} alt="star" />
-                    <div className="area-indicator fullstack">
-                        <hr />
-                        <p>Fullstack</p>
+                    <img src={star} alt="star" className="star"/>
+                    <div className="indicators">
+                        <div className="area-indicator fullstack">
+                            <hr />
+                            <p>Fullstack</p>
+                        </div>
+                        <div className="area-indicator frontend">
+                            <hr />
+                            <p>Frontend</p>
+                        </div>
+                        <div className="area-indicator backend">
+                            <hr />
+                            <p>Backend</p>
+                        </div>
                     </div>
-                    <div className="area-indicator frontend">
-                        <hr />
-                        <p>Frontend</p>
-                    </div>
-                    <div className="area-indicator backend">
-                        <hr />
-                        <p>Backend</p>
-                    </div>
+                    
                 </section>
                 <div className="skills-container">
                     {skills.map(skill => <p className={`skill ${skill.area}`}>{skill.name}</p>)}

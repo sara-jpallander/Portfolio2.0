@@ -13,11 +13,11 @@ export default function Contact() {
 
             <div className="contact-content">
                 <div className="contact-title">
-                    <img src={star} alt="star" />
+                    <img src={star} alt="star" className="star"/>
                     <hr />
                     <h2>Contact</h2>
                     <hr />
-                    <img src={star} alt="star" />
+                    <img src={star} alt="star" className="star"/>
                 </div>
 
                 <div className="contact-links">
