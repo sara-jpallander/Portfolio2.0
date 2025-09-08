@@ -22,22 +22,28 @@ export default function Contact() {
 
                 <div className="contact-links">
                     <a href="https://chasacademy.slack.com/team/U07KBQGTUMT" target="blank">
-                        <img src={slack} alt="slack" />
+                        <img src={slack} alt="slack" className="slack-contact-img"/>
                     </a>
 
                     <span>|</span>
                     
                     <a href="https://www.linkedin.com/in/sara-j-pallander-3644a1249/" target="blank">
-                        <img src={linkedin} alt="linkedin" />
+                        <img src={linkedin} alt="linkedin" className="linkedin-contact-img"/>
                     </a>
 
-                    <span>|</span>
-                    <img src={email} alt="email" />
-                    <p className="email-adress">sara.j.pallander@gmail.com</p>
-                
+                    <div className="email-container">
+                        <span>|</span>
+                        <img src={email} alt="email" />
+                        <p className="email-adress">sara.j.pallander@gmail.com</p>
+                    </div>
+                    
                 </div>
 
-                <p className="footer-text">Sara J. Pallander <span>•</span> 2025 <span>|</span> Designed and built with love.</p>
+                <div className="footer-text">
+                    <p>Sara J. Pallander <span>•</span> 2025</p>
+                    <span>|</span>
+                    <p>If it's <strong>99%</strong>, it's almost Sara</p>
+                </div>
             </div>
         </footer>
     )

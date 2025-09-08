@@ -1,6 +1,8 @@
 import taskly from "../../assets/taskly.png"
 import nextract from "../../assets/nextract.webp"
 import oldportfolio from "../../assets/oldportfolio.png"
+import jobchaser from "../../assets/jobchaser.png"
+import webshop from "../../assets/webshop.png"
 import placeholder from "../../assets/placeholder-169.png"
 
 
@@ -32,10 +34,26 @@ const projects: Project[] = [
     {
         img: oldportfolio,
         title: "Portfolio",
-        deployLink: "https://almostsara.netlify.app/",
+        deployLink: "https://oldportfolioex.netlify.app/",
         description: "[OLD] Portfolio created as a school project. Built in vanilla Javascript, HTML and CSS with the help of the Github API. Adjusts dark or light-mode according to device settings.",
         githubLink: "https://github.com/sara-jpallander/Portfolio"
     }, 
+
+    {
+        img: jobchaser,
+        title: "Jobchaser",
+        deployLink: "https://u07-jobchaser.netlify.app//",
+        description: "First project built with React, utilizing a sign up & login feature. Responsive design & dark mode adjustable by the click of a button.",
+        githubLink: "https://github.com/sara-jpallander/JobChaser"
+    },
+
+    {
+        img: webshop,
+        title: "Webshop",
+        deployLink: "https://moasjogren.github.io/u04/",
+        description: "Webshop mockup built as a group project, where you can filter through products and go to checkout. Vanilla Javascript, CSS & HTML.",
+        githubLink: "https://github.com/moasjogren/u04"
+    }
 
 /*     {
         img: placeholder,
