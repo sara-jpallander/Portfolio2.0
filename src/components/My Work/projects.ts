@@ -3,7 +3,6 @@ import nextract from "../../assets/nextract.webp"
 import oldportfolio from "../../assets/oldportfolio.png"
 import jobchaser from "../../assets/jobchaser.png"
 import webshop from "../../assets/webshop.png"
-import placeholder from "../../assets/placeholder-169.png"
 
 
 type Project = {
@@ -54,13 +53,6 @@ const projects: Project[] = [
         description: "Webshop mockup built as a group project, where you can filter through products and go to checkout. Vanilla Javascript, CSS & HTML.",
         githubLink: "https://github.com/moasjogren/u04"
     }
-
-/*     {
-        img: placeholder,
-        title: "Test",
-        description: "Understanding the common laptop screen resolutions and their corresponding pixel counts empowers users to choose the best option that aligns with their specific requirements and budget constraints.",
-        githubLink: "test"
-    }, */
 ]
 
 export default projects;
