@@ -72,6 +72,16 @@ const skills: Skill[] = [
     {
         name: "MySQL",
         area: "backend"
+    },
+
+    {
+        name: "MongoDB",
+        area: "backend"
+    },
+
+    {
+        name: "NoSQL",
+        area: "backend"
     }
 ]
 
